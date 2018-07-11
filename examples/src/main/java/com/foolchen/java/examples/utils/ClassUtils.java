@@ -1,4 +1,4 @@
-package com.foolchen.java.annotations.utils;
+package com.foolchen.java.examples.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,8 +21,7 @@ public class ClassUtils {
    * @param packageName 要获取类的包名
    * @return 类的列表
    */
-  public static List<String> getClassesForPackage(String packageName)
-      throws IOException, ClassNotFoundException {
+  public static List<String> getClassesForPackage(String packageName) throws IOException {
     List<String> classes = new ArrayList<>();
     // 首先根据包名获取到包的相对路径
     String packagePath = packageName.replaceAll("\\.", getFileSeparator());

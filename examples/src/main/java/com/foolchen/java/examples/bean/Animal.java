@@ -1,9 +1,9 @@
-package com.foolchen.java.annotations.bean;
+package com.foolchen.java.examples.bean;
 
-import com.foolchen.java.annotations.database.Constraints;
-import com.foolchen.java.annotations.database.DBTable;
-import com.foolchen.java.annotations.database.SQLInteger;
-import com.foolchen.java.annotations.database.SQLString;
+import com.foolchen.java.examples.database.Constraints;
+import com.foolchen.java.examples.database.DBTable;
+import com.foolchen.java.examples.database.SQLInteger;
+import com.foolchen.java.examples.database.SQLString;
 
 /**
  * 使用注解来定义一个类，该类的定义可被解释为一个数据库表

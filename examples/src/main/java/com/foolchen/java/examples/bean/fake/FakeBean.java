@@ -1,4 +1,4 @@
-package com.foolchen.java.annotations.bean.fake;
+package com.foolchen.java.examples.bean.fake;
 
 /**
  * 该类仅用于测试ClassUtils，没有任何实际用处

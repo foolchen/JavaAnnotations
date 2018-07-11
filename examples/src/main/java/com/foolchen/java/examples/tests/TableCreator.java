@@ -1,11 +1,11 @@
-package com.foolchen.java.annotations.tests;
+package com.foolchen.java.examples.tests;
 
-import com.foolchen.java.annotations.bean.Member;
-import com.foolchen.java.annotations.database.Constraints;
-import com.foolchen.java.annotations.database.DBTable;
-import com.foolchen.java.annotations.database.SQLInteger;
-import com.foolchen.java.annotations.database.SQLString;
-import com.foolchen.java.annotations.utils.ClassUtils;
+import com.foolchen.java.examples.bean.Member;
+import com.foolchen.java.examples.database.Constraints;
+import com.foolchen.java.examples.database.DBTable;
+import com.foolchen.java.examples.database.SQLInteger;
+import com.foolchen.java.examples.database.SQLString;
+import com.foolchen.java.examples.utils.ClassUtils;
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -113,7 +113,7 @@ public class TableCreator {
     }*/
     List<String> classes = null;
     try {
-      classes = ClassUtils.getClassesForPackage("com.foolchen.java.annotations.bean");
+      classes = ClassUtils.getClassesForPackage("com.foolchen.java.examples.bean");
     } catch (IOException e) {
       e.printStackTrace();
     }

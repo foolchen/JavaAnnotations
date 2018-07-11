@@ -1,4 +1,4 @@
-package com.foolchen.java.annotations.database;
+package com.foolchen.java.examples.database;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

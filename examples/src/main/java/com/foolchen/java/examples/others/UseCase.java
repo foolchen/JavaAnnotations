@@ -1,4 +1,4 @@
-package com.foolchen.java.annotations.others;
+package com.foolchen.java.examples.others;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
